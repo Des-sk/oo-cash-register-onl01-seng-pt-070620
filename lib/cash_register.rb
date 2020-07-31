@@ -10,6 +10,10 @@ class CashRegister
     @items = []
   end
   
+  def add_item(items, price)
+    @items<< items
+    @total= price
+  
 end
 
 
