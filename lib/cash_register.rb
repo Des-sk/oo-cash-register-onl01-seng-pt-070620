@@ -8,7 +8,7 @@ class CashRegister
   end
   
 
-
+end
 
 
 
