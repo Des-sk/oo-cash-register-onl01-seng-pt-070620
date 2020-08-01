@@ -32,7 +32,7 @@ class CashRegister
     @total == @last_total
   end
 end
-end
+
   
   
   
