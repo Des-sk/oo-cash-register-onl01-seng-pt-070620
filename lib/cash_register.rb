@@ -21,7 +21,7 @@ class CashRegister
     if @discount != 0 
       "After the discount, the total comes to $#{@total}."
     end
-    
+  end
   
 
   
