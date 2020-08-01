@@ -23,6 +23,7 @@ class CashRegister
     else @discount = 0 
       
       
+      
     end
   end
   
