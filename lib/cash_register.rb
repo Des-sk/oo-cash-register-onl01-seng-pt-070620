@@ -14,6 +14,7 @@ class CashRegister
     @items << title
     @last_total = @total
     @total += price * quantity
+    @items<< quantity +=1
   end
   
   def apply_discount
@@ -22,9 +23,9 @@ class CashRegister
       "After the discount, the total comes to $#{@total}."
     else 
       "There is no discount to apply."
-      
-      
     end
+    
+    
   end
   
 end
